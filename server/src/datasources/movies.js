@@ -1,4 +1,4 @@
-class BooksDataSource {
+class MoviesDataSource {
   constructor() {
     this.baseURL = "";
   }
@@ -24,5 +24,5 @@ class BooksDataSource {
 }
 
 module.exports = {
-  BooksDataSource,
+  MoviesDataSource,
 };

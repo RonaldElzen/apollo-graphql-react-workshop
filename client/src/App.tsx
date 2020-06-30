@@ -29,6 +29,7 @@ function App() {
           <Navbar />
           <Route exact={true} path="/" component={BooksPageContainer} />
           <Route path="/movies" component={MoviesPage} />
+          <Route path="/checkout" component={MoviesPage} />
         </div>
       </BrowserRouter>
     </ApolloProvider>
