@@ -5,11 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "start": "node --inspect src/server.js",
-    "prd": "node server.js",
-    "dev": "set NODE_ENV=development&&nodemon  src/server.js",
-    "start:ci": "node src/server.js",
-    "docker-container-debug": "node --inspect=0.0.0.0:9229 src/server.js"
+    "start": "node --inspect src/server.js"
   },
   "dependencies": {
     "apollo-datasource-rest": "^0.6.11",
