@@ -25,3 +25,6 @@ This projects version got the movies datasource connected. As you did the worksh
 - Create a query which only returns movies from a given genre
 - Make the selector in the front-end functional
 
+### Movies genre filter query
+The genre filter is worked out in this project
+If you did the workshop assignments well in the previous project, you should have a comparable project.
