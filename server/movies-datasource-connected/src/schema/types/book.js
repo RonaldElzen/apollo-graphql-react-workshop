@@ -1,4 +1,6 @@
-const { gql } = require("apollo-server-express");
+const {
+  gql,
+} = require("../../../../movies-genre-filter-query/src/schema/types/node_modules/apollo-server-express");
 
 const Book = gql`
   type Book {
