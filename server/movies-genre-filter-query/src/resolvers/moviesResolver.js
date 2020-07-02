@@ -4,7 +4,7 @@ const movies = async (_root, args, context) => {
 
 const moviesByGenre = async (_root, args, context) => {
   const result = context.dataSources.moviesDataSource.getMovies();
-  return result.some((movie) => movie.genre === args.genre);
+  return result.filter((movie) => movie.genre === args.genre);
 };
 
 module.exports = {
