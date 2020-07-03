@@ -6,6 +6,7 @@ function Navbar() {
     <div className="navbar">
       <NavLink to={"/"}>Books</NavLink>
       <NavLink to={"/movies"}>Movies</NavLink>
+      <NavLink to={"/filteredMovies"}>Movies filter</NavLink>
     </div>
   );
 }
