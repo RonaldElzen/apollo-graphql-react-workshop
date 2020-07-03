@@ -8,7 +8,7 @@ class BooksDataSource {
       {
         title: "Harry Potter and the Chamber of Secrets",
         author: "J.K. Rowling",
-        isbn: "978-0439064873",
+        isbn: "9780439064873",
         price: "19.37",
         description: "Harry Potter part 2",
         rereviews: [
@@ -35,8 +35,33 @@ class BooksDataSource {
         ],
       },
       {
-        title: "Jurassic Park",
-        author: "Michael Crichton",
+        title: "The Hunger Games",
+        author: "Suzanne Collins",
+        isbn: "9781407132082",
+        price: "10",
+        description: "The first book in the Hunger Games trilogy.",
+        rereviews: [
+          {
+            name: "John Doe",
+            description: "Nice!",
+            stars: 4,
+          },
+          {
+            name: "Jane Doe",
+            description: "Not my thing.",
+            stars: 1,
+          },
+        ],
+        stock: [
+          {
+            warehouse: "Groningen",
+            amount: 8,
+          },
+          {
+            warehouse: "Amsterdam",
+            amount: 7,
+          },
+        ],
       },
     ];
   }
