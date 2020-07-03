@@ -5,6 +5,7 @@ const Query = gql`
     books: [Book]
     movies: [Movie]
     moviesByGenre(genre: String): [Movie]
+    movieGenres: [String]
   }
 `;
 

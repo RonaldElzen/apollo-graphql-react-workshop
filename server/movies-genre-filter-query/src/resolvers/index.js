@@ -1,5 +1,5 @@
 const { books } = require("./booksResolver");
-const { movies, moviesByGenre } = require("./moviesResolver");
+const { movies, moviesByGenre, movieGenres } = require("./moviesResolver");
 
 /**
  * The resolver connects a query to its data source.
@@ -10,6 +10,7 @@ const resolvers = {
     books,
     movies,
     moviesByGenre,
+    movieGenres,
   },
 };
 

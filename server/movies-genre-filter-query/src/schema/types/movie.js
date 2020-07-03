@@ -7,8 +7,6 @@ const Movie = gql`
     price: Float
     length: String
     genre: String
-    stock: [Stockdata]
-    reviews: [Review]
   }
 `;
 
