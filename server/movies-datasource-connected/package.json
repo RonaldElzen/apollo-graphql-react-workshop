@@ -1,5 +1,5 @@
 {
-  "name": "qgl-demo-server",
+  "name": "server-2",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
@@ -16,5 +16,7 @@
   "devDependencies": {
     "jest": "^25.5.0",
     "jest-junit": "^10.0.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
