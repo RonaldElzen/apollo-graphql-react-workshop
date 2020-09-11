@@ -1,5 +1,5 @@
 import React from "react";
-import { useLazyQuery } from "@apollo/react-hooks";
+import { useLazyQuery } from "@apollo/client";
 import MoviesPage from "./FilteredMoviesPage";
 import GenreSelectorContainer from "../../components/genreSelector/GenreSelectorContainer";
 
