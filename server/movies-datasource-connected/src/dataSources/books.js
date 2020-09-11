@@ -11,28 +11,28 @@ class BooksDataSource {
         isbn: "9780439064873",
         price: "19.37",
         description: "Harry Potter part 2",
-        rereviews: [
+        reviews: [
           {
             name: "John Doe",
             description: "Meh",
-            stars: 2,
+            stars: 2
           },
           {
             name: "Jane Doe",
             description: "Awesome!",
-            stars: 5,
-          },
+            stars: 5
+          }
         ],
         stock: [
           {
             warehouse: "Groningen",
-            amount: 10,
+            amount: 10
           },
           {
             warehouse: "Amsterdam",
-            amount: 5,
-          },
-        ],
+            amount: 5
+          }
+        ]
       },
       {
         title: "The Hunger Games",
@@ -40,33 +40,33 @@ class BooksDataSource {
         isbn: "9781407132082",
         price: "10",
         description: "The first book in the Hunger Games trilogy.",
-        rereviews: [
+        reviews: [
           {
             name: "John Doe",
             description: "Nice!",
-            stars: 4,
+            stars: 4
           },
           {
             name: "Jane Doe",
             description: "Not my thing.",
-            stars: 1,
-          },
+            stars: 1
+          }
         ],
         stock: [
           {
             warehouse: "Groningen",
-            amount: 8,
+            amount: 8
           },
           {
             warehouse: "Amsterdam",
-            amount: 7,
-          },
-        ],
-      },
+            amount: 7
+          }
+        ]
+      }
     ];
   }
 }
 
 module.exports = {
-  BooksDataSource,
+  BooksDataSource
 };
