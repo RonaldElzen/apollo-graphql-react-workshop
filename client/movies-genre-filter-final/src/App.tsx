@@ -1,14 +1,15 @@
 import React from "react";
 
 import "./App.css";
-import { ApolloProvider } from "@apollo/react-hooks";
+
 import BooksPageContainer from "./pages/booksPage/BooksPageContainer";
 import {
   ApolloClient,
   HttpLink,
   NormalizedCacheObject,
   InMemoryCache,
-} from "apollo-boost";
+  ApolloProvider,
+} from "@apollo/client";
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import MoviesPageContainer from "./pages/moviesPage/MoviesPageContainer";

@@ -1,7 +1,7 @@
 import React from "react";
-import { useQuery } from "@apollo/react-hooks";
 import { GET_MOVIES } from "./MoviesQuery";
 import MoviesPage from "./MoviesPage";
+import { useQuery } from "@apollo/client";
 
 function MoviesPageContainer() {
   const { data, loading } = useQuery<any>(GET_MOVIES);

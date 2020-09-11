@@ -1,6 +1,6 @@
 import React from "react";
 import { GET_BOOKS } from "./booksQuery";
-import { useQuery } from "@apollo/react-hooks";
+import { useQuery } from "@apollo/client";
 import BooksPage from "./BooksPage";
 
 function BooksPageContainer() {

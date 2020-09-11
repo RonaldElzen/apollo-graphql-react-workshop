@@ -1,5 +1,5 @@
 import React from "react";
-import { useQuery } from "@apollo/react-hooks";
+import { useQuery } from "@apollo/client";
 import GenreSelector from "./GenreSelector";
 import { GET_GENRES } from "./GetGenresQuery";
 
