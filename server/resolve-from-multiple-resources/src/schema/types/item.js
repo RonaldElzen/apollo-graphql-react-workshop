@@ -1,16 +1,13 @@
 const { gql } = require("apollo-server-express");
 
-const Movie = gql`
-  type Movie {
+const Item = gql`
+  type Item {
+    id: Float
     title: String
     description: String
-    price: Float
-    length: String
-    genre: String
-    id: Float
   }
 `;
 
 module.exports = {
-  Movie,
+  Item,
 };

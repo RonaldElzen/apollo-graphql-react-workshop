@@ -11,7 +11,7 @@ class BooksDataSource {
         isbn: "9780439064873",
         price: "19.37",
         description: "Harry Potter part 2",
-        rereviews: [
+        reviews: [
           {
             name: "John Doe",
             description: "Meh",
@@ -40,7 +40,7 @@ class BooksDataSource {
         isbn: "9781407132082",
         price: "10",
         description: "The first book in the Hunger Games trilogy.",
-        rereviews: [
+        reviews: [
           {
             name: "John Doe",
             description: "Nice!",

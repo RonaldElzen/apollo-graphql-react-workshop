@@ -6,6 +6,8 @@ import { useQuery } from "@apollo/client";
 function MoviesPageContainer() {
   const { data, loading } = useQuery<any>(GET_MOVIES);
 
+  
+
   if (loading) {
     return <h2>Loading...</h2>;
   }
