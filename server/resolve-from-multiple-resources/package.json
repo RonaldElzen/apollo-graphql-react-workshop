@@ -1,0 +1,20 @@
+{
+  "name": "qgl-demo-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node --inspect src/server.js"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.11",
+    "apollo-server-express": "^2.9.15",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "jest": "^25.5.0",
+    "jest-junit": "^10.0.0"
+  }
+}

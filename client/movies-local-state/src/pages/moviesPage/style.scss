@@ -1,0 +1,33 @@
+.movie-item {
+  width: 250px;
+  background: #e2e2e2;
+  margin: 8px;
+  padding: 8px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 4px 8px;
+    }
+  }
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.2s ease;
+  &:hover {
+    background: #fafafa;
+  }
+}
+
+.movie-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
